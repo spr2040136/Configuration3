@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385578114264",
+    "project_id": "maslog-b44e1",
+    "storage_bucket": "maslog-b44e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385578114264:android:5cce8fa99bdd8736bc4bad",
+        "android_client_info": {
+          "package_name": "com.homesetting.configuration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385578114264-9v830pjdv10b7gp3egir5rri52oeng62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD0-4Pa77UHZ2WbCHMOH6BFEleDwGRrfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385578114264-9v830pjdv10b7gp3egir5rri52oeng62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

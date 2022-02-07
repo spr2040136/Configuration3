@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.homesetting.configuration">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Configuration">
+        <activity
+            android:name=".MaintestSubActivity"
+            android:label="@string/title_activity_maintest_sub"
+            android:theme="@style/Theme.Configuration.NoActionBar"></activity>
+        <activity android:name=".test" />
+        <activity android:name=".SubActivitycalendar" />
+        <activity android:name=".MainActivitycalendar" />
+        <activity
+            android:name=".Mainhome"
+            android:label="ホーム">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PasswordActivity"
+            android:label="パスワード変更" />
+        <activity
+            android:name=".MailActivity"
+            android:label="メールアドレス変更" />
+        <activity
+            android:name=".IndividualActivity"
+            android:label="個人情報変更" />
+        <activity
+            android:name=".MainActivity"
+            android:label="設定" />
+        <activity
+            android:name=".MotionActivity"
+            android:label="おすすめの運動法" />
+        <activity
+            android:name=".MaintestActivity"
+            android:label="カロリー計算" />
+    </application>
+
+</manifest>
