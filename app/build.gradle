@@ -5,13 +5,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion 32
+
+    compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.homesetting.configuration"
         minSdkVersion 23
-        targetSdkVersion 32
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
@@ -44,7 +45,6 @@ apply plugin: 'com.google.gms.google-services'
 
 dependencies {
 
-    //noinspection GradleDependency
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'

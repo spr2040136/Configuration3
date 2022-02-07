@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.homesetting.configuration.databinding.ActivityMainBinding
 import com.homesetting.configuration.databinding.ActivityMainhomeBinding
 
@@ -18,6 +20,9 @@ class Mainhome : AppCompatActivity() {
         binding.motionButton.setOnClickListener { onmotionButtonTapped(it) }
         binding.kcalButton.setOnClickListener { onkcalButtonTapped(it) }
         binding.calendarButton.setOnClickListener { oncalendarButtonTapped(it) }
+
+
+
     }
     fun onsettingButtonTapped(view: View?){
         val intent = Intent(this, MainActivity::class.java)
