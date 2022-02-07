@@ -1,10 +1,12 @@
 package com.homesetting.configuration
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.database.FirebaseDatabase
 import com.homesetting.configuration.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -16,6 +18,11 @@ class MainActivity : AppCompatActivity() {
         binding.informationchangeButton.setOnClickListener { oninformationchangeButtonTapped(it) }
         binding.mailchangeButton.setOnClickListener { onmailchangeButtonTapped(it) }
         binding.passwordchangeButton.setOnClickListener { onpasswordchangeButtonTapped(it) }
+
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.reference
+        myRef.setValue("Hello World !")
+
     }
 
     fun oninformationchangeButtonTapped(view: View?) {
